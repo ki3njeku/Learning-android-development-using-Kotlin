@@ -1,7 +1,8 @@
 fun main(){
-    val numbers  = arrayOf(2,3,5,7,11)
-    println("The first number is ${numbers[0]}")
+    val numberArray  = arrayOf(2,3,5,7,11)
+    println("The first number is ${numberArray[0]}")
     findPrimes()
+    println("The largest number is ${findMax(numberArray)}")
 }
 fun findMin(numbers: Array<Int>): Int{
     var min: Int = numbers[0]
