@@ -8,8 +8,8 @@ fun main(){
 
 class Account{
     lateinit var userName: String
-    var balance = 0
-    var transactions = mutableListOf<String>("")
+    private var balance = 0
+    private var transactions = mutableListOf<String>()
     fun createAccount(firstName: String){
         userName = firstName
         println("New account created for $userName")
